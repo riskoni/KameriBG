@@ -15,5 +15,7 @@ Kameras on Motorways now track the average speed.
 Application Screenshots:
 ==
 
-<img src="/screenshot1.png" alt="Application Screenshot" width="250"/>
-<img src="/screenshot2.png" alt="Application Screenshot2" width="250"/>
+<span>
+  <img src="/screenshot1.png" alt="Application Screenshot" width="250"/>
+  <img src="/screenshot2.png" alt="Application Screenshot2" width="250"/>
+</span>
