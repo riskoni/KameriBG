@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Speed Zones is a free mobile app that helps you stay informed of speed limits and driving zones in real-time." />
+  <meta name="keywords" content="Speed Zones, speed limit app, GPS driving app, traffic zones, mobile app, Камери БГ" />
+  <meta name="author" content="riskoni" />
+  <title>Speed Zones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      padding: 2em 1em;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      margin-top: 0.5em;
+      font-size: 2em;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1em;
+      padding: 2em 1em;
+    }
+
+    .gallery img {
+      width: 300px;
+      max-width: 90%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .contact {
+      background-color: #ffffff;
+      padding: 2em 1em;
+      box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+    }
+
+    .contact form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 0.8em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact button {
+      padding: 0.8em 1.2em;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 2em;
+      padding: 1em;
+      background-color: #f0f0f0;
+    }
+
+    footer button {
+      margin: 0 0.5em;
+      padding: 0.5em 1em;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="icon.png" alt="Speed Zones App Icon" />
+    <h1>Speed Zones</h1>
+  </header>
+
+  <section class="gallery">
+    <img src="screenshot1.png" alt="Screenshot 1" />
+    <img src="screenshot2.png" alt="Screenshot 2" />
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:prostyle.app.feed@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <button onclick="window.location.href='privacy.html'">Privacy Policy</button>
+    <button onclick="window.location.href='terms.html'">Terms of Use</button>
+  </footer>
+
+</body>
+</html>
