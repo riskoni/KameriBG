@@ -8,9 +8,8 @@
 Description
 ==
 
-Website for the KameriBG / КамериБГ mobile application.
-Application is used to keep drivers informed about the speed zones in Bulgaria motorways.
-Kameras on Motorways now track the average speed.
+Kameri BG is an easy-to-use app that helps drivers stay aware of the speed limits on Bulgaria’s motorways. It uses your phone’s GPS to show your current speed zone so you can drive safely and avoid fines. The app works entirely offline — it does not use the internet or send any of your data anywhere. Everything stays on your phone, and you stay in control.  
+With new average speed cameras on motorways, it’s important to know the speed limits. Kameri BG makes that simple and clear.
 
 Application Screenshots:
 ==
