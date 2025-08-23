@@ -54,20 +54,6 @@
       box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
     }
 
-    .contact form {
-      max-width: 400px;
-      margin: 0 auto;
-      text-align: left;
-    }
-
-    .contact input, .contact textarea {
-      width: 100%;
-      padding: 0.8em;
-      margin-bottom: 1em;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-
     .contact button {
       padding: 0.8em 1.2em;
       border: none;
@@ -75,6 +61,10 @@
       color: white;
       border-radius: 4px;
       cursor: pointer;
+    }
+
+    .contact-button:hover {
+      background-color: #0056b3;
     }
 
     footer {
@@ -108,11 +98,16 @@
   </section>
 
   <section class="contact">
-    <h2>Contact Us</h2>
-    <form action="mailto:prostyle.app.feed@gmail.com" method="GET" enctype="text/plain">
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+  <h2>Contact Us</h2>
+  <a href="mailto:prostyle.app.feed@gmail.com" class="contact-button" style="
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  ">Send Email</a>
   </section>
 
   <footer>
