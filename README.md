@@ -25,5 +25,6 @@ New in upcomming v1.2:
 Live updates on your lock screen or Dynamic island
 
 <span>
-  <img src="/screenshot3.png" alt="Application Screenshot2" width="250"/>
+  <img src="/screenshot3.png" alt="Notification for the average speed" width="250"/>
+  <img src="/screenshot4.png" alt="Меню с настройки" width="250"/>
 </span>
