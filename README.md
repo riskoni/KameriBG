@@ -17,5 +17,13 @@ Application Screenshots:
 <span>
   <img src="/screenshot1.png" alt="Application Screenshot" width="250"/>
   <img src="/screenshot2.png" alt="Application Screenshot2" width="250"/>
+</span>
+
+New in upcomming v1.2:
+==
+
+Live updates on your lock screen or Dynamic island
+
+<span>
   <img src="/screenshot3.png" alt="Application Screenshot2" width="250"/>
 </span>
