@@ -3,7 +3,7 @@
 Камери БГ / Kameri BG
 ==
 
-[Go to the Website](https://riskoni.github.io/KameriBG)
+[Go to the Website](https://srednaskorost.eu))
 
 Description
 ==
