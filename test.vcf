@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;John;;;
+FN:John Doe
+ORG:Example Company
+TITLE:Software Engineer
+TEL;TYPE=CELL:+1234567890
+TEL;TYPE=WORK:+1987654321
+EMAIL;TYPE=WORK:john.doe@example.com
+ADR;TYPE=WORK:;;123 Main Street;New York;NY;10001;USA
+URL:https://example.com
+END:VCARD
