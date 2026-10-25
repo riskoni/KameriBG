@@ -157,6 +157,10 @@ h1, h2, h3 {
   padding: 48px 0;
 }
 
+section[id] {
+  scroll-margin-top: 60px;
+}
+
 .section-title {
   margin: 0 0 8px;
   font-size: 1.75rem;
@@ -172,7 +176,7 @@ h1, h2, h3 {
 
 .features {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
 }
 
