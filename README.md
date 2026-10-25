@@ -23,8 +23,8 @@ Application Screenshots
 ==
 
 <span>
-  <img src="screenshot1.png" alt="Application Screenshot" width="250"/>
-  <img src="screenshot2.png" alt="Application Screenshot 2" width="250"/>
-  <img src="screenshot3.png" alt="Average speed on the Lock Screen" width="250"/>
-  <img src="screenshot4.png" alt="Settings menu" width="250"/>
+  <img src="screenshots/en/drive.jpg" alt="Main screen with the zone, average speed and an on-track message" width="200"/>
+  <img src="screenshots/en/slow-down.jpg" alt="Kameri BG telling you to slow down to 125 km/h for the rest of the zone" width="200"/>
+  <img src="screenshots/en/history.jpg" alt="Trip history grouped by day" width="200"/>
+  <img src="screenshots/en/alerts.jpg" alt="Alerts settings with voice alerts and notifications" width="200"/>
 </span>
