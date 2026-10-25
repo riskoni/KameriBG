@@ -427,3 +427,10 @@ h1, h2, h3 {
     max-width: 300px;
   }
 }
+
+.site-nav a.lang-switch {
+  margin-left: 4px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 600;
+}
