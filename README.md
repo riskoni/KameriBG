@@ -3,8 +3,6 @@
 Камери БГ / Kameri BG
 ==
 
-[Go to the Website](https://srednaskorost.eu)
-
 Description
 ==
 
