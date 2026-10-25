@@ -1,158 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Kameri BG is a free mobile app that helps you stay informed of speed limits and driving zones in real-time." />
-  <meta name="keywords" content="Kameri BG, speed limit app, GPS driving app, traffic zones, mobile app, Камери БГ" />
-  <meta name="author" content="riskoni" />
-  <title>Kameri BG</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-
-    header {
-      padding: 2em 1em;
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    header img {
-      width: 100px;
-      height: 100px;
-    }
-
-    h1 {
-      margin-top: 0.2em;
-      font-size: 2em;
-    }
-
-    h4 {
-      margin-top: 0.2em;
-      font-size: 1em;
-    }
-
-    h6 {
-      margin-top: 0.2em;
-      font-size: 0.75em;
-    }
-
-    #content {
-  		max-width: 1600px;
-  		margin: 0 auto;
-  		display: flex;
-  		flex-direction: column;
-  		gap: 1rem;
-	  }
-
-    .gallery {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1em;
-      padding: 2em 1em;
-    }
-
-    .gallery img {
-      width: 300px;
-      max-width: 90%;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    }
-
-    .contact {
-      background-color: #ffffff;
-      padding: 2em 1em;
-      box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
-    }
-
-    footer {
-      margin-top: 2em;
-      padding: 1em;
-      background-color: #f0f0f0;
-    }
-
-    button, .button {
-      margin: 0 1em;
-      padding: 1em 2em;
-      border: none;
-      background-color: #FFB526;
-      color: black;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-	  .shorts-container {
-	    position: relative;
-	    padding-bottom: 177.78%;
-	    height: 0;
-	    overflow: hidden;
-	    max-width: 100%;
-	  }
-	  .shorts-container iframe {
-	    position: absolute;
-	    top: 0; left: 0;
-	    width: 100%;
-	    height: 100%;
-	  }
-
-	  
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kameri BG – Average speed camera app for Bulgaria</title>
+  <meta name="description" content="Kameri BG is a free iPhone app that shows the speed limit on Bulgaria's motorways and helps you avoid average speed camera fines. Works fully offline.">
+  <meta name="keywords" content="Kameri BG, Камери БГ, average speed cameras, speed limit app, Bulgaria, Тракия, средна скорост">
+  <meta name="author" content="riskoni">
+  <meta name="theme-color" content="#ffb526">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <img src="icon.png" alt="Kameri BG App Icon" />
-     </header>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="icon.png" alt="">Kameri BG</a>
+      <nav class="site-nav">
+        <a class="optional" href="#features">Features</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <div id="content">
-    <section>
- 	  <h1>Kameri BG / Камери БГ</h1>
-      <h4>Kameri BG is an easy-to-use app that helps drivers stay aware of the speed limits on Bulgaria’s motorways. It uses your phone’s GPS to show your current speed zone so you can drive safely and avoid fines. The app works entirely offline — it does not use the internet or send any of your data anywhere. Everything stays on your phone, and you stay in control.</h4>
-      <h6>With new average speed cameras on motorways, it’s important to know the speed limits. Kameri BG makes that simple and clear.</h6>
-	</section>
-	  
-    <section class="gallery">
-      <img src="screenshot1.png" alt="Screenshot 1" />
-      <img src="screenshot2.png" alt="Screenshot 2" />
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img class="hero-icon" src="icon.png" alt="Kameri BG app icon">
+        <h1>Kameri BG <span lang="bg">/ Камери БГ</span></h1>
+        <p class="tagline">Know the speed limit on every stretch of Bulgaria's motorways, and drive past average speed cameras without worrying about a fine.</p>
+        <a class="store-badge" href="https://apps.apple.com/app/6751439569" target="_blank" rel="noopener noreferrer">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+      </div>
     </section>
 
-	<h4>Upcomming features in version 1.2:</h4>
-	<p>Live updates and in time notifications</p>
- 	<section class="gallery">
-      <img src="screenshot3.png" alt="Screenshot 1" />
-      <img src="screenshot4.png" alt="Screenshot 2" />
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Simple, private, reliable</h2>
+        <p class="section-lead">Average speed cameras measure your speed over a whole section of road, not at a single point. Kameri BG keeps you informed the entire way.</p>
+        <div class="features">
+          <div class="card">
+            <span class="icon" aria-hidden="true">📍</span>
+            <h3>Your current speed zone</h3>
+            <p>Uses your phone's GPS to show the speed limit for the section you're driving on.</p>
+          </div>
+          <div class="card">
+            <span class="icon" aria-hidden="true">📴</span>
+            <h3>Works fully offline</h3>
+            <p>No internet or mobile data needed, so it keeps working in areas with poor coverage.</p>
+          </div>
+          <div class="card">
+            <span class="icon" aria-hidden="true">🔒</span>
+            <h3>Your data stays yours</h3>
+            <p>Nothing is collected, tracked or sent anywhere. Everything stays on your phone.</p>
+          </div>
+          <div class="card">
+            <span class="icon" aria-hidden="true">🆓</span>
+            <h3>Free to use</h3>
+            <p>Download it from the App Store at no cost.</p>
+          </div>
+        </div>
+      </div>
     </section>
-	  
-  </div>
 
-  <section class="link">
-	<div style="text-align: center;">
-	  <a href="https://apps.apple.com/app/6751439569" target="_blank" rel="noopener noreferrer">
-		<img
-		  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-		  alt="Изтегли от App Store"
-		  style="height: 50px;"
-		/>
-	  </a>
-	</div>
-  </section>  
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">See it in action</h2>
+        <p class="section-lead">A clear, distraction-free view of the limit that applies to you right now.</p>
+        <div class="gallery">
+          <img src="screenshot1.png" alt="Kameri BG showing the current speed zone" width="589" height="1278" loading="lazy">
+          <img src="screenshot2.png" alt="Kameri BG section details" width="589" height="1278" loading="lazy">
+        </div>
+      </div>
+    </section>
 
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <a class="button" href="mailto:prostyle.app.feed@gmail.com" class="contact-button">Send Email</a>
-  </section>  
+    <section class="section">
+      <div class="container center">
+        <span class="badge">Coming in version 1.2</span>
+        <h2 class="section-title">Live updates on your lock screen</h2>
+        <p class="section-lead">Follow your average speed from the lock screen or the Dynamic Island, and get notified right when it matters, without opening the app.</p>
+        <div class="gallery">
+          <img src="screenshot3.png" alt="Average speed notification on the lock screen" width="660" height="1434" loading="lazy">
+          <img src="screenshot4.png" alt="Kameri BG settings menu" width="660" height="1434" loading="lazy">
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <button onclick="window.location.href='privacy.html'">Privacy Policy</button>
-    <button onclick="window.location.href='terms.html'">Terms of Use</button>
-	<button onclick="window.location.href='news/kameri-ot-5-septemvri.html'">News</button>  
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title">News</h2>
+        <p class="section-lead" lang="bg">Новини за камерите за средна скорост в България.</p>
+        <div class="news-list" lang="bg">
+          <a class="card" href="news/kameri-ot-5-septemvri.html">
+            <time datetime="2025-09-01">1 септември 2025</time>
+            <h3>Камери за средна скорост от 5 септември – списък с отсечките</h3>
+            <p>Къде работят камерите по АМ „Тракия“ и Северната скоростна тангента.</p>
+          </a>
+          <a class="card" href="news/novo-prilojenie-sledi-sredna-skorost.html">
+            <time datetime="2025-09">Септември 2025</time>
+            <h3>Ново приложение следи средната ви скорост в реално време</h3>
+            <p>Какво представлява Камери БГ и как помага да избегнете глоби.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container center">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-lead">Found a wrong speed limit, have an idea, or need help? We'd love to hear from you.</p>
+        <a class="button" href="mailto:prostyle.app.feed@gmail.com">Send us an email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2025 Kameri BG</span>
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="mailto:prostyle.app.feed@gmail.com">Contact</a>
+      </nav>
+    </div>
   </footer>
 
 </body>
